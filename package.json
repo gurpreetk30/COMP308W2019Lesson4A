@@ -1,19 +1,23 @@
 {
-  "name": "comp308w2019lesson3a",
+  "name": "comp308w2019lesson4a",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
+    "bootstrap": "^4.2.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "ejs": "~2.5.7",
     "express": "~4.16.0",
+    "font-awesome": "^4.7.0",
     "http-errors": "~1.6.2",
-    "morgan": "~1.9.0"
+    "jquery": "^3.3.1",
+    "morgan": "~1.9.0",
+    "popper.js": "^1.14.6"
   },
-  "description": "express generator demo",
+  "description": "mongoDB demo",
   "main": "server.js",
   "author": "Gurpreet kaur",
   "license": "ISC",
@@ -23,5 +27,13 @@
     "@types/express": "^4.16.1",
     "@types/morgan": "^1.7.35",
     "@types/node": "^10.12.18"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurpreetk30/COMP308W2019Lesson4A.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gurpreetk30/COMP308W2019Lesson4A/issues"
+  },
+  "homepage": "https://github.com/gurpreetk30/COMP308W2019Lesson4A#readme"
 }
