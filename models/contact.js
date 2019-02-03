@@ -4,14 +4,13 @@ let mongoose = require('mongoose');
 
 let contactsSchema = mongoose.Schema({
 
-    firstName:String,
-    lastName:String,
-    age:Number
-},
+    name:String,
+    description:String,
+    },
 
 {
-    collection:"first"
+    collection:"favouritethings"
 }
 );
 
-module.exports = mongoose.model('demo',contactsSchema);
+module.exports = mongoose.model('gurpreet',contactsSchema);
